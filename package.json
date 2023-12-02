@@ -1,0 +1,30 @@
+{
+  "name": "brain-hacking",
+  "version": "1.0.0",
+  "description": "Hackeando la mente.",
+  "private": true,
+  "author": "BrainHacking Team",
+  "license": "MIT",
+  "scripts": {
+    "react-app:dev": "yarn workspace @brain-hacking/react-app dev",
+    "react-app:build": "yarn workspace @brain-hacking/react-app build",
+    "react-app:start": "yarn workspace @brain-hacking/react-app start",
+    "react-app:lint": "yarn workspace @brain-hacking/react-app lint",
+    "hardhat:compile": "yarn workspace @brain-hacking/hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celo-org/celo-composer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/celo-org/celo-composer/issues"
+  },
+  "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "celo-composer",
+    "celo"
+  ]
+}
