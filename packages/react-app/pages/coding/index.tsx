@@ -1,3 +1,5 @@
+import CodingContent from "@/components/organisms/CodingContent";
+
 export default function CodingPage() {
-    return <p>coding page</p>
+    return <CodingContent />
 }

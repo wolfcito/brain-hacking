@@ -18,9 +18,9 @@ const Layout: FC<Props> = ({ children }) => {
 
     const indexRouteFound = PUBLIC_ROUTES.indexOf(pathname)
 
-    if (indexRouteFound !== -1 && !isConnected) router.push(ROUTES.HOME)
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if(indexRouteFound === -1 && !isConnected)
+      router.push(ROUTES.HOME)
+     
   }, [])
 
   return (
