@@ -5,7 +5,7 @@ import '@rainbow-me/rainbowkit/styles.css'
 import type { AppProps } from 'next/app'
 import { WagmiConfig, configureChains, createConfig } from 'wagmi'
 import { publicProvider } from 'wagmi/providers/public'
-import Layout from '../components/Layout'
+import Layout from '../components/atoms/Layout'
 import '../styles/globals.css'
 
 const projectId = process.env.NEXT_PUBLIC_WC_PROJECT_ID as string // get one at https://cloud.walletconnect.com/app
