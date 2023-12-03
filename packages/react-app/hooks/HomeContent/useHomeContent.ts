@@ -2,7 +2,8 @@ import { useEffect, useState } from "react"
 import { useAccount } from "wagmi"
 import { IUseHomeContent } from "./useHomeContent.interfaces"
 
-export default function useHomeContent(): IUseHomeContent {
+export default function   
+  useHomeContent(): IUseHomeContent {
   const [userAddress, setUserAddress] = useState('')
   const { address, isConnected } = useAccount()
 

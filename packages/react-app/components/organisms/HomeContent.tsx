@@ -1,14 +1,14 @@
-import useHomeContent from "@/hooks/HomeContent/useHomeContent";
 import HomeContentTitle from "../molecules/IndexMainTitle/HomeContentTitle";
 import RoadMap from "../molecules/RoadMap/RoadMap";
+import Donations from "../molecules/Donations";
 
 export default function HomeContent() {
-    const { } = useHomeContent();
     return (
-        <main >
+        <main>
             <HomeContentTitle />
             <hr  />
             <RoadMap />
+            <Donations />
         </main>
     )
 }
