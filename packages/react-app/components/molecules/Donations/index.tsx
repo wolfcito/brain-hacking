@@ -12,7 +12,7 @@ export default function Donations() {
   } = useDonations()
 
   return (
-    <section className="flex columns-2 flex-col content-center items-center justify-center">
+    <section className="bg-prosperity flex columns-2 flex-col content-center items-center justify-center">
       <SuggestionDonation onClick={handleClickBtnDonations} />
       {btnDotationWasClicked && (
         <FormDonation
