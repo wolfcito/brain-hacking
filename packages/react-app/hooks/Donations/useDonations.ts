@@ -1,37 +1,49 @@
-import { ChangeEvent, FormEvent, useState } from "react";
-import { IUseDonations } from "./useDonations.interfaces";
-import { AlertSuccess } from "@/components/atoms/Alerts/AlertSuccess";
+import { ChangeEvent, FormEvent, useState } from 'react'
+import { IUseDonations } from './useDonations.interfaces'
+import { AlertSuccess } from '@/components/atoms/Alerts/AlertSuccess'
+import { donateToContract } from '@/services'
 
-export default function useDonations() : IUseDonations {
-    const [btnDotationWasClicked, setBtnDotationWasClicked ] = useState(false)
-    const [valueDonation, setValueDonation] = useState(0);
+export default function useDonations(): IUseDonations {
+  const [btnDotationWasClicked, setBtnDotationWasClicked] = useState(true)
+  const [valueDonation, setValueDonation] = useState(0)
 
-    const handleClickBtnDonations = () => {
-        setBtnDotationWasClicked(true)
+  const getDoneation = async () => {
+    if (window.ethereum) {
+      const allaccounts: string[] = await window.ethereum.request({
+        method: 'eth_requestAccounts',
+      })
+
+      if (allaccounts.length) await donateToContract(valueDonation)
+      AlertSuccess.fire({
+        icon: 'success',
+        title: '¡Gracias por ser parte del cambio!',
+      })
+    } else {
+      console.error('MetaMask u otra billetera no detectada')
     }
+    setValueDonation(0)
+  }
 
-    const handleChangeValueDonation = (event: ChangeEvent<HTMLInputElement>) => {
-        const newValue = Number(event.target.value);
+  const handleClickBtnDonations = () => {
+    setBtnDotationWasClicked(true)
+  }
 
-        if(newValue > 0)
-            setValueDonation(newValue)
-    }
+  const handleChangeValueDonation = (event: ChangeEvent<HTMLInputElement>) => {
+    const newValue = Number(event.target.value)
 
-    const sendDonation = (event: FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-        setTimeout(() => {
-            AlertSuccess.fire({
-                icon: "success",
-                title: "Agradecemos su contribución"
-            })
-        }, 2000);
-    }
+    if (newValue > 0) setValueDonation(newValue)
+  }
 
-    return {
-        btnDotationWasClicked,
-        valueDonation,
-        handleClickBtnDonations,
-        handleChangeValueDonation,
-        sendDonation
-    }
+  const sendDonation = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
+    getDoneation()
+  }
+
+  return {
+    btnDotationWasClicked,
+    valueDonation,
+    handleClickBtnDonations,
+    handleChangeValueDonation,
+    sendDonation,
+  }
 }
