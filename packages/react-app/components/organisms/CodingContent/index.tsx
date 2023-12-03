@@ -24,7 +24,7 @@ export default function CodingContent() {
     }
 
     return (<main className="bg-black flex flex-col" >
-        <div className="basic-5" style={{ height: "500px" }}>
+        <div className="basic-5">
             <CodingTestStatusBar challengeIndex={challengeIndex} />
             <CodeChallenge
                 description={CodeChallenges[challengeIndex].description}

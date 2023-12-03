@@ -2,7 +2,7 @@ import CodeTask from "../CodeTask";
 import { ICodeChallengeProps } from "./CodeChallenge.interfaces";
 
 export default function CodeChallenge({ description, link, title, task }: ICodeChallengeProps) {
-    return (<section className="flex flex-row w-full bg-black" style={{ height: "500px" }} >
+    return (<section className="flex flex-row w-full bg-black" style={{ height: "80vh" }} >
         <article className="basis-1/4 ml-10 text-justify text-white font-medium">
             <h2>{title}</h2>
             <p>{description}</p>
