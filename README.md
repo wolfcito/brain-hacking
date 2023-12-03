@@ -1,21 +1,21 @@
 <!-- TITLE -->
 <p align="center"> 
-  <img width="100px" src="https://github.com/celo-org/celo-composer/blob/main/images/readme/celo_isotype.svg" align="center" alt="Celo" />
- <h2 align="center">Celo Composer</h2>
+  
+ <h2 align="center">Brain Hacking</h2>
  <p align="center">Build, deploy, and iterate quickly on decentralized applications using Celo.</p>
 </p>
   <p align="center">
-    <a href="https://github.com/celo-org/celo-composer/graphs/stars">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/stars/celo-org/celo-composer?color=FCFF52" />
+    <a href="https://github.com/wolfcito/brain-hacking/graphs/stars">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/stars/wolfcito/brain-hacking?color=FCFF52" />
     </a>
-    <a href="https://github.com/celo-org/celo-composer/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/celo-org/celo-composer?color=E7E3D4" />
+    <a href="https://github.com/wolfcito/brain-hacking/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/wolfcito/brain-hacking?color=E7E3D4" />
     </a>
-    <a href="https://github.com/celo-org/celo-composer/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/celo-org/celo-composer?color=E7E3D4" />
+    <a href="https://github.com/wolfcito/brain-hacking/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/wolfcito/brain-hacking?color=E7E3D4" />
     </a>
-    <a href="https://github.com/celo-org/celo-composer/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/celo-org/celo-composer?color=E7E3D4" />
+    <a href="https://github.com/wolfcito/brain-hacking/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/wolfcito/brain-hacking?color=E7E3D4" />
     </a>
     <a href="https://opensource.org/license/mit/">
       <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
@@ -53,21 +53,19 @@
 
 ## About The Project
 
-Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
+Brain Hacking is a dapp focused on ...
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Built With
 
-Celo Composer is built on Celo to make it simple to build dApps using a variety of front-end frameworks, and libraries.
+It was a dApps using a variety of front-end frameworks, and libraries.
 
 - [Celo](https://celo.org/)
 - [Solidity](https://docs.soliditylang.org/en/v0.8.19/)
 - [Next.js](https://nextjs.org/)
 - [React.js](https://reactjs.org/)
 - [Material UI](https://mui.com/)
-- [React Native](https://reactnative.dev/)
-- [Flutter](https://docs.flutter.dev/)
 - [React-celo](https://github.com/celo-org/react-celo/)
 - [Rainbowkit-celo](https://github.com/celo-org/rainbowkit-celo)
 
@@ -79,73 +77,6 @@ Celo Composer is built on Celo to make it simple to build dApps using a variety 
 
 - Node
 - Git (v2.38 or higher)
-
-## How to use Celo Composer
-
-The easiest way to start with Celo Composer is using `@celo/celo-composer`. This CLI tool lets you quickly start building dApps on Celo for multiple frameworks, including React (with either react-celo or rainbowkit-celo), React Native (w/o Expo), Flutter, and Angular. To get started, just run the following command, and follow the steps:
-
-```bash
-npx @celo/celo-composer@latest create
-```
-
-### Front-end framework
-
-![Celo Composer select framework](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_1.png?raw=true)
-
-### Web3 library (for react-app)
-
-![Celo Composer select framework](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_2.png?raw=true)
-
-### Smart contract framework
-
-![Celo Composer tool selection](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_3.png?raw=true)
-
-### Subgraph
-
-![Celo Composer subgraph support](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_4.png?raw=true)
-
-### Name your dApp
-
-![Celo Composer dApp name](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_5.png?raw=true)
-
-**_🔥Voila, you have a dApp ready to go. Voila, you have a dApp ready to go. Start building your dApp on Celo._**
-
-### Getting started
-
-Once your custom dApp has been created, just install dependencies, either with `yarn` or `npm i`, and run the respective script from the `package.json` file.
-## Supported Frameworks
-
-### React
-
-- Support for Website and Progressive Web Application.
-- Works with all major crypto wallets.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/react-app/README.md) to learn more about.
-
-### React Native
-
-- Out of the box config, just focus on buidl.
-- Support for Android and IOS.
-- Works with and without [Expo](https://expo.dev/).
-- Working example app included.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/react-native-app/README.md) to learn more about.
-
-### Flutter
-
-- One command to get started - Type `flutter run` to start development in your mobile phone.
-- Works with all major mobile crypto wallets.
-- Support for Android, IOS (Web, Windows, and Linux coming soon).
-- Working example app included.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/flutter-app/README.md) to learn more about.
-
-### Angular
-
-- Support for Website and Progressive Web Application.
-- Works with all major crypto wallets.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/angular-app/README.md) to learn more about.
 
 <!-- USAGE EXAMPLES -->
 
@@ -166,13 +97,13 @@ Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packa
 
 ## Support
 
-Join the Celo Discord server at <https://chat.celo.org>. Reach out on the dedicated repo channel [here](https://discord.com/channels/600834479145353243/941003424298856448).
+Join the Eth Colombia Discord server. Reach out on the dedicated repo channel [here](https://discord.com/channels/1116761127171408023/1177001812969128037).
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-See the [open issues](https://github.com/celo-org/celo-composer/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/wolfcito/brain-hacking/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -189,9 +120,12 @@ We welcome contributions from the community.
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
+
 ## Contact
 
-- [@CeloDevs](https://twitter.com/CeloDevs)
-- [Discord](https://discord.com/invite/celo)
+- [Rocio](https://github.com/Rocioegrajales)
+- [Luis](https://github.com/Rocioegrajales)
+- [Danny](https://github.com/dflasso)
+- [Jacob](https://github.com/M15STAKE)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

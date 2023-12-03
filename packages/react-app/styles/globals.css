@@ -221,3 +221,9 @@ html {
     margin-bottom: 0.5rem;
     font-weight: 600;
   }
+
+  button, [type='button'], [type='reset'], [type='submit'] {
+    -webkit-appearance: button;
+    background-color: #1d7484; 
+    background-image: none;
+}
