@@ -16,6 +16,7 @@ export default function Header() {
       setHideConnectBtn(true)
       connect()
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
@@ -47,7 +48,7 @@ export default function Header() {
                       smallScreen: true,
                       largeScreen: false,
                     }}
-                    label='Wallet'
+                    label="Wallet"
                   />
                 )}
               </div>
