@@ -18,15 +18,15 @@ const Layout: FC<Props> = ({ children }) => {
 
     const indexRouteFound = PUBLIC_ROUTES.indexOf(pathname)
 
-    if(indexRouteFound !== -1 && !isConnected)
-      router.push(ROUTES.HOME)
-     
+    if (indexRouteFound !== -1 && !isConnected) router.push(ROUTES.HOME)
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
     <div className="bg-gypsum flex min-h-screen flex-col overflow-hidden">
       <Header />
-        {children}
+      {children}
       <Footer />
     </div>
   )
