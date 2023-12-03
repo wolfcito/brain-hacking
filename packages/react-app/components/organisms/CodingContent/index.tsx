@@ -9,7 +9,7 @@ export default function CodingContent() {
     const [challengeIndex, setChallengeIndex] = useState<number>(0);
     const router = useRouter()
     const handleGoBack = () => {
-        if(challengeIndex => 1){
+        if(challengeIndex >= 1){
             setChallengeIndex(index => index-1)
         }
     }

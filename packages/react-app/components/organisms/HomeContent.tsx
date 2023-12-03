@@ -5,12 +5,12 @@ import EnterApp from "../molecules/EnterApp";
 
 export default function HomeContent() {
     return (
-        <main>
+        <div>
             <HomeContentTitle />
             <EnterApp />
             <hr  />
             <RoadMap />
             <Donations />
-        </main>
+        </div>
     )
 }
