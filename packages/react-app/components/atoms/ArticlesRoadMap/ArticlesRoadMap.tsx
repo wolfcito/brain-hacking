@@ -13,9 +13,9 @@ export function ArticlesRoadMap({ articles }: IArticlesRoadMapProps) {
                 <Image
                   src={art.image.path}
                   alt={art.title}
-                  width={art.image.width}
-                  height={art.image.heigth}
-                  className="rounded-full"
+                  width={500}
+                  height={500}
+                  className="h-[400px] w-[400px] rounded-full object-cover"
                 />
                 <p className="mx-8 max-w-prose text-center text-xl">
                   {art.paragraph}
@@ -29,9 +29,9 @@ export function ArticlesRoadMap({ articles }: IArticlesRoadMapProps) {
                 <Image
                   src={art.image.path}
                   alt={art.title}
-                  width={art.image.width}
-                  height={art.image.heigth}
-                  className="rounded-full"
+                  width={500}
+                  height={500}
+                  className="h-[400px] w-[400px] rounded-full object-cover"
                 />
               </>
             )}
