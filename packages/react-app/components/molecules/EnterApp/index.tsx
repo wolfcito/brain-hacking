@@ -8,11 +8,8 @@ export default function EnterApp() {
 
     const handleClickEnterApp = () => routre.push(ROUTES.CODING.INDEX)
 
-    if(!isConnected)
-        return null;
-
     return (<div className="flex flex-col justify-center items-center content-center">
-        <button onClick={handleClickEnterApp} className="basis-1/2 rounded-md w-1/6 my-2" disabled={!isConnected}>Ingresar</button>
+        <button onClick={handleClickEnterApp} className={`basis-1/2 rounded-md w-1/6 my-2 ${isConnected? "bg-cyan-900": "bg-gray-500 hover:bg-gray-500"}`} disabled={!isConnected}>Ingresar</button>
     </div>
     )
 

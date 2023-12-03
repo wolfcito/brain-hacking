@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from 'react'
 import { IUseDonations } from './useDonations.interfaces'
-import { AlertSuccess } from '@/components/atoms/Alerts/AlertSuccess'
+import { Toast } from '@/components/atoms/Alerts/AlertSuccess'
 import { donateToContract } from '@/services'
 
 export default function useDonations(): IUseDonations {
@@ -14,7 +14,7 @@ export default function useDonations(): IUseDonations {
       })
 
       if (allaccounts.length) await donateToContract(valueDonation)
-      AlertSuccess.fire({
+      Toast.fire({
         icon: 'success',
         title: '¡Gracias por ser parte del cambio!',
       })
