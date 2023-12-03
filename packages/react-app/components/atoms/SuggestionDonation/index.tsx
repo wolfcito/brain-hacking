@@ -6,7 +6,7 @@ export default function SuggestionDonation({
   onClick,
 }: ISuggestionDonation) {
   return (
-    <div className="my-6 flex w-full flex-col items-center justify-center bg-slate-300">
+    <div className="my-6 flex w-full flex-col items-center justify-center">
       <h2 className="my-1">{label}</h2>
       <span className="my-1">{label2}</span>
       {/* <button onClick={onClick} className="basis-1/4">Donar</button> */}
