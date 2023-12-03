@@ -51,15 +51,22 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## Inspiration
 
-Brain Hacking is a dapp focused on ...
+En el día a día vemos varias tendencias significativas en el mundo, dos de ellas que nos asombran son: por un lado la revolución tecnológica actual tan acelerada y llena de posibilidades, y por otro lado el incremento importante de la población mayor debido a mejores estándares en la calidad y las expectativas de vida.
+Aunque parezca paradójico, a pesar de que la tecnología ha contribuido a mejorar las expectativas de vida, también su desarrollo acelerado ha abierto una gran brecha, dejando por fuera a muchas poblaciones vulnerables, entre ellas muchos de los no nativos digitales y sobre todo a los adultos mayores.
+A lo largo de la vida el cerebro presenta modificaciones, tanto estructurales como funcionales, desde el punto de vista biológico. Debido a su plasticidad cerebral o capacidad de transformación, se pueden crear nuevas vías neuronales mejorando su capacidad y desempeño, por medio de estimulación externa y entrenamiento como el aprendizaje de nuevos conceptos y habilidades.
+Coincidimos en el grupo en las consideraciones anteriores y nos inspiro saber que por medio de la tecnología podemos contribuir e impactar positivamente.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Built With
+## What it does
 
-It was a dApps using a variety of front-end frameworks, and libraries.
+Nos planteamos entonces en Brain Hacking, cómo podemos impactar a la población, por un lado cerrando las brechas tecnológicas existentes y por otro lado evitando alteraciones neurodegenerativas.
+
+## How we built it
+
+Creamos una herramienta para el aprendizaje lúdico, soportada en web 3.0 y tecnologías adyacentes como almacenaje en la nube.
 
 - [Celo](https://celo.org/)
 - [Solidity](https://docs.soliditylang.org/en/v0.8.19/)
@@ -95,15 +102,21 @@ It was a dApps using a variety of front-end frameworks, and libraries.
 
 📧 Learn the [Solidity globals and units](https://solidity.readthedocs.io/en/v0.8.19/units-and-global-variables.html)
 
-## Support
+## Challenges we ran into
 
-Join the Eth Colombia Discord server. Reach out on the dedicated repo channel [here](https://discord.com/channels/1116761127171408023/1177001812969128037).
+Nos encontramos con el reto de cómo llegar al usuario final teniendo en cuenta las ofertas del mercado, lo cual resolvimos creando incentivos que son posibles dentro de la tecnología de la Web 3.0, para obtener una mayor adopción y fidelización de los usuarios.
 
-<!-- ROADMAP -->
+## Accomplishments that we're proud of
 
-## Roadmap
+Nos satisface y enorgullece haber logrado el entendimiento de la problemática para efectivamente desarrollar el medio adecuado de contribuir e impactar a un gran número de personas.
 
-See the [open issues](https://github.com/wolfcito/brain-hacking/issues) for a full list of proposed features (and known issues).
+## What we learned
+
+Todo este desarrollo nos deja como aprendizaje que el conocimiento de las posibilidades tecnológicas actuales nos permite impactar positivamente a la humanidad y al planeta.
+
+## What's next for Brain Hacking
+
+Trabajaremos por la expansión de Brain Hacking ampliando la oferta de posibilidades para el usuario, ayudando a explorar y mejorar todo su potencial en las diferentes esferas de su vida… física, espiritual, psicológica, intelectual, social, etc.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

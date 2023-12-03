@@ -1,4 +1,5 @@
 export interface ISuggestionDonation {
-    label?: string,
-    onClick: () => void
+  label?: string
+  label2?: string
+  onClick: () => void
 }
