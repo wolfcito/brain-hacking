@@ -137,7 +137,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 - [Rocio](https://github.com/Rocioegrajales)
-- [Luis](https://github.com/Rocioegrajales)
+- [Luis](https://github.com/wolfcito)
 - [Danny](https://github.com/dflasso)
 - [Jacob](https://github.com/M15STAKE)
 
